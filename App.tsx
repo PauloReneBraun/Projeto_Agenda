@@ -1,15 +1,5 @@
-import { Text, View } from "react-native";
+import Home from "./src/screens/Home";
 
 export default function App() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        backgroundColor: "#131016",
-      }}
-    >
-      color: #FDFCFE, fonSize: 20, FontWeight: 'bold',
-      <Text>Paulo Braun</Text>
-    </View>
-  );
+  return <Home />;
 }
